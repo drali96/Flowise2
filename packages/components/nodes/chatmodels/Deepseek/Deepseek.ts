@@ -7,7 +7,7 @@ import { getModels, MODEL_TYPE } from '../../../src/modelLoader'
 import { getBaseClasses, getCredentialData, getCredentialParam } from '../../../src/utils'
 
 class Deepseek_ChatModels implements INode {
-    readonly baseURL: string = 'https://api.avalai.ir'
+    readonly baseURL: string = 'https://api.avalai.ir/v1'
     label: string
     name: string
     version: number
